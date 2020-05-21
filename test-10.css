@@ -1,0 +1,183 @@
+.test{
+    padding: 100px 0px 100px 0px;
+}
+.test-2{
+    padding: 50px 0px 50px 80px;
+}
+.contact-1{
+    width: 42%;
+}
+.contact-2{
+    width: 15%;
+}
+.contact-3{
+    width: 10%;
+}
+.contact-4{
+    width: 20%;
+}
+.contact-5{
+    width: 10%;
+}
+.butt{
+    padding: 5px 30px 5px 30px;
+    background-color: cyan;
+    border-radius: 4px;
+    border: none;
+    color: white;
+}
+.about{
+    padding: 50px 0px 50px 0px;
+    /* text-align: center; */
+    width: 100%;
+}
+
+.test-3{
+    background-color: cyan;
+    padding: 50px 0px 50px 80px;
+}
+.test-3 a{
+    color: white;
+    text-decoration: none;
+}
+.col-3-1{
+    width: 25%;
+}
+.test-4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 800px;
+    background-image: url("image/lap-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.test-4 a{
+    color: black;
+    text-decoration: none;
+}
+.gift{
+    background-image: url("image/gift.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+.test-5{
+    padding: 50px 0px 50px 0px;
+}
+.icon-1{
+    left: 2.5%;
+    top:40%;
+}
+.icon-2{
+    left: 26%;
+    top:40%;
+}
+.icon-3{
+    left: 50%;
+    top:40%;
+}
+.icon-4{
+    left: 74%;
+    top:40%;
+}
+.test-4 a:hover{
+    color: cyan;
+}
+.menu-1{
+    width: 58%;
+    padding-left: 2%;
+}
+.menu-2{
+    width: 6%;
+}
+.menu-3{
+    padding-left: 20%;
+    
+}
+.transition{
+    border:1px solid none ;
+    
+    height: 60px;
+}
+.transition-1{
+    width: 0%;
+    height: 20px;
+    transition: 2s;
+    transition-timing-function: ease;
+    background-color: red;
+}
+.transition-2{
+    width: 0%;
+    height: 20px;
+    transition: 2s;
+    transition-timing-function: ease;
+    background-color: skyblue;
+}
+.transition-3{
+    width: 0%;
+    height: 20px;
+    transition: 2s;
+    transition-timing-function: ease;
+    background-color: greenyellow;
+}
+.transition:hover> .transition-1{
+    width: 75%;
+}
+.transition:hover> .transition-2{
+    width: 90%;
+}
+.transition:hover> .transition-3{
+    width: 65%;
+}
+.image{
+    height: auto;
+    width: 25%;
+}
+.image img{
+    width: 100%;
+}
+.Testimonials{
+    background-color: cyan;
+    font-size: 30px;
+    color: white;
+    padding: 50px 0px 50px 0px;
+}
+.text{
+    padding-left: 40%;
+}
+@media(max-width:768px){
+    .menu-main{ 
+        width: 33.3%;
+    }
+    .icon-1{
+        top:30%;
+        left: 9%;
+    }
+    .icon-2{
+        top:30%;
+        left: 50%;
+    }
+    .icon-3{
+        top:55%;
+        left: 9%;
+    }
+    .icon-4{
+        top:55%;
+        left: 50%;
+    }
+    .col-3-1{
+        width: 50%;
+    }
+    .col-2-1{
+        width: 50%;
+    
+    }
+    .col-2-2{
+        width: 33.3%;
+    
+    }
+ 
+
+}
